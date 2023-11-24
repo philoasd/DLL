@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="CustomCombineControl">
+      <UniqueIdentifier>{39dd6c32-5f79-404d-8926-414016c19348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UICurtomLeftBarControl">
+      <UniqueIdentifier>{36fd4454-c954-47d4-8476-499e20ef0864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UICustomColorControl">
+      <UniqueIdentifier>{1c03c331-12dd-4241-bb13-f816abc81f85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UICustomSingleControl">
+      <UniqueIdentifier>{a9005153-1caa-426b-ac01-c04f86a321d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="customcontrols_global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CustomCombineControl\UICustomColorControl.cpp">
+      <Filter>CustomCombineControl</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomCombineControl\UICustomCombineControlBase.cpp">
+      <Filter>CustomCombineControl</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomCombineControl\UICustomComboBoxControl.cpp">
+      <Filter>CustomCombineControl</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomCombineControl\UICustomDateEditControl.cpp">
+      <Filter>CustomCombineControl</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomCombineControl\UICustomDoubleControl.cpp">
+      <Filter>CustomCombineControl</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomCombineControl\UICustomFontComboBoxControl.cpp">
+      <Filter>CustomCombineControl</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomCombineControl\UICustomGroupControl.cpp">
+      <Filter>CustomCombineControl</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomCombineControl\UICustomIntControl.cpp">
+      <Filter>CustomCombineControl</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomCombineControl\UICustomLineEditControl.cpp">
+      <Filter>CustomCombineControl</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomCombineControl\UICustomOrientationControl.cpp">
+      <Filter>CustomCombineControl</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomCombineControl\UICustomPostionControl.cpp">
+      <Filter>CustomCombineControl</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomCombineControl\UICustomSwitchControl.cpp">
+      <Filter>CustomCombineControl</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomCombineControl\UICustomTextEditTagControl.cpp">
+      <Filter>CustomCombineControl</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomCombineControl\UICustomTimeEditControl.cpp">
+      <Filter>CustomCombineControl</Filter>
+    </ClCompile>
+    <ClCompile Include="UICurtomLeftBarControl\UICustomLeftItemWidget.cpp">
+      <Filter>UICurtomLeftBarControl</Filter>
+    </ClCompile>
+    <ClCompile Include="UICurtomLeftBarControl\UICustomLeftTabsControl.cpp">
+      <Filter>UICurtomLeftBarControl</Filter>
+    </ClCompile>
+    <ClCompile Include="UICurtomLeftBarControl\UICustomLeftWidget.cpp">
+      <Filter>UICurtomLeftBarControl</Filter>
+    </ClCompile>
+    <ClCompile Include="UICustomColorControl\UICustomColorWidget.cpp">
+      <Filter>UICustomColorControl</Filter>
+    </ClCompile>
+    <ClCompile Include="UICustomColorControl\UICustomColorCircle.cpp">
+      <Filter>UICustomColorControl</Filter>
+    </ClCompile>
+    <ClCompile Include="UICustomColorControl\UICustomColorSlider.cpp">
+      <Filter>UICustomColorControl</Filter>
+    </ClCompile>
+    <ClCompile Include="UICustomColorControl\UICustomColorSliderItem.cpp">
+      <Filter>UICustomColorControl</Filter>
+    </ClCompile>
+    <ClCompile Include="UICustomColorControl\UICustonColorDialog.cpp">
+      <Filter>UICustomColorControl</Filter>
+    </ClCompile>
+    <ClCompile Include="UICustomColorControl\UICustomCustomColorOperator.cpp">
+      <Filter>UICustomColorControl</Filter>
+    </ClCompile>
+    <ClCompile Include="UICustomSingleControl\UICustomCalendarWidget.cpp">
+      <Filter>UICustomSingleControl</Filter>
+    </ClCompile>
+    <ClCompile Include="UICustomSingleControl\UICustomColorViewWidget.cpp">
+      <Filter>UICustomSingleControl</Filter>
+    </ClCompile>
+    <ClCompile Include="UICustomSingleControl\UICustomComboBox.cpp">
+      <Filter>UICustomSingleControl</Filter>
+    </ClCompile>
+    <ClCompile Include="UICustomSingleControl\UICustomDateEdit.cpp">
+      <Filter>UICustomSingleControl</Filter>
+    </ClCompile>
+    <ClCompile Include="UICustomSingleControl\UICustomDoubleSpinBox.cpp">
+      <Filter>UICustomSingleControl</Filter>
+    </ClCompile>
+    <ClCompile Include="UICustomSingleControl\UICustomImageViewer.cpp">
+      <Filter>UICustomSingleControl</Filter>
+    </ClCompile>
+    <ClCompile Include="UICustomSingleControl\UICustomIntSpinBox.cpp">
+      <Filter>UICustomSingleControl</Filter>
+    </ClCompile>
+    <ClCompile Include="UICustomSingleControl\UICustomPostionWidget.cpp">
+      <Filter>UICustomSingleControl</Filter>
+    </ClCompile>
+    <ClCompile Include="UICustomSingleControl\UICustomLineEdit.cpp">
+      <Filter>UICustomSingleControl</Filter>
+    </ClCompile>
+    <ClCompile Include="UICustomSingleControl\UICustomSwitchWidget.cpp">
+      <Filter>UICustomSingleControl</Filter>
+    </ClCompile>
+    <ClCompile Include="UICustomSingleControl\UICustomTextEdit.cpp">
+      <Filter>UICustomSingleControl</Filter>
+    </ClCompile>
+    <ClCompile Include="UICustomSingleControl\UICustomTimeEdit.cpp">
+      <Filter>UICustomSingleControl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="CustomCombineControl\UICustomColorControl.h">
+      <Filter>CustomCombineControl</Filter>
+    </QtMoc>
+    <QtMoc Include="CustomCombineControl\UICustomCombineControlBase.h">
+      <Filter>CustomCombineControl</Filter>
+    </QtMoc>
+    <QtMoc Include="CustomCombineControl\UICustomComboBoxControl.h">
+      <Filter>CustomCombineControl</Filter>
+    </QtMoc>
+    <QtMoc Include="CustomCombineControl\UICustomDateEditControl.h">
+      <Filter>CustomCombineControl</Filter>
+    </QtMoc>
+    <QtMoc Include="CustomCombineControl\UICustomDoubleControl.h">
+      <Filter>CustomCombineControl</Filter>
+    </QtMoc>
+    <QtMoc Include="CustomCombineControl\UICustomFontComboBoxControl.h">
+      <Filter>CustomCombineControl</Filter>
+    </QtMoc>
+    <QtMoc Include="CustomCombineControl\UICustomGroupControl.h">
+      <Filter>CustomCombineControl</Filter>
+    </QtMoc>
+    <QtMoc Include="CustomCombineControl\UICustomIntControl.h">
+      <Filter>CustomCombineControl</Filter>
+    </QtMoc>
+    <QtMoc Include="CustomCombineControl\UICustomLineEditControl.h">
+      <Filter>CustomCombineControl</Filter>
+    </QtMoc>
+    <QtMoc Include="CustomCombineControl\UICustomOrientationControl.h">
+      <Filter>CustomCombineControl</Filter>
+    </QtMoc>
+    <QtMoc Include="CustomCombineControl\UICustomPostionControl.h">
+      <Filter>CustomCombineControl</Filter>
+    </QtMoc>
+    <QtMoc Include="CustomCombineControl\UICustomSwitchControl.h">
+      <Filter>CustomCombineControl</Filter>
+    </QtMoc>
+    <QtMoc Include="CustomCombineControl\UICustomTextEditTagControl.h">
+      <Filter>CustomCombineControl</Filter>
+    </QtMoc>
+    <QtMoc Include="CustomCombineControl\UICustomTimeEditControl.h">
+      <Filter>CustomCombineControl</Filter>
+    </QtMoc>
+    <QtMoc Include="UICurtomLeftBarControl\UICustomLeftItemWidget.h">
+      <Filter>UICurtomLeftBarControl</Filter>
+    </QtMoc>
+    <QtMoc Include="UICurtomLeftBarControl\UICustomLefTabsControl.h">
+      <Filter>UICurtomLeftBarControl</Filter>
+    </QtMoc>
+    <QtMoc Include="UICurtomLeftBarControl\UICustomLeftWidget.h">
+      <Filter>UICurtomLeftBarControl</Filter>
+    </QtMoc>
+    <QtMoc Include="UICustomColorControl\UICustomColorCircle.h">
+      <Filter>UICustomColorControl</Filter>
+    </QtMoc>
+    <QtMoc Include="UICustomColorControl\UICustomColorSlider.h">
+      <Filter>UICustomColorControl</Filter>
+    </QtMoc>
+    <QtMoc Include="UICustomColorControl\UICustomColorSliderItem.h">
+      <Filter>UICustomColorControl</Filter>
+    </QtMoc>
+    <QtMoc Include="UICustomColorControl\UICustonColorDialog.h">
+      <Filter>UICustomColorControl</Filter>
+    </QtMoc>
+    <QtMoc Include="UICustomColorControl\UICustomColorWidget.h">
+      <Filter>UICustomColorControl</Filter>
+    </QtMoc>
+    <QtMoc Include="UICustomColorControl\UICustomCustomColorOperator.h">
+      <Filter>UICustomColorControl</Filter>
+    </QtMoc>
+    <QtMoc Include="UICustomSingleControl\UICustomCalendarWidget.h">
+      <Filter>UICustomSingleControl</Filter>
+    </QtMoc>
+    <QtMoc Include="UICustomSingleControl\UICustomColorViewWidget.h">
+      <Filter>UICustomSingleControl</Filter>
+    </QtMoc>
+    <QtMoc Include="UICustomSingleControl\UICustomComboBox.h">
+      <Filter>UICustomSingleControl</Filter>
+    </QtMoc>
+    <QtMoc Include="UICustomSingleControl\UICustomDateEdit.h">
+      <Filter>UICustomSingleControl</Filter>
+    </QtMoc>
+    <QtMoc Include="UICustomSingleControl\UICustomDoubleSpinBox.h">
+      <Filter>UICustomSingleControl</Filter>
+    </QtMoc>
+    <QtMoc Include="UICustomSingleControl\UICustomImageViewer.h">
+      <Filter>UICustomSingleControl</Filter>
+    </QtMoc>
+    <QtMoc Include="UICustomSingleControl\UICustomIntSpinBox.h">
+      <Filter>UICustomSingleControl</Filter>
+    </QtMoc>
+    <QtMoc Include="UICustomSingleControl\UICustomLineEdit.h">
+      <Filter>UICustomSingleControl</Filter>
+    </QtMoc>
+    <QtMoc Include="UICustomSingleControl\UICustomPostionWidget.h">
+      <Filter>UICustomSingleControl</Filter>
+    </QtMoc>
+    <QtMoc Include="UICustomSingleControl\UICustomSwitchWidget.h">
+      <Filter>UICustomSingleControl</Filter>
+    </QtMoc>
+    <QtMoc Include="UICustomSingleControl\UICustomTextEdit.h">
+      <Filter>UICustomSingleControl</Filter>
+    </QtMoc>
+    <QtMoc Include="UICustomSingleControl\UICustomTimeEdit.h">
+      <Filter>UICustomSingleControl</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>
